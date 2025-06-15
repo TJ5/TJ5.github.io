@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script>
+      // If the path is /book-reviews, redirect to /book-reviews/
+      if (location.pathname === '/book-reviews') {
+        location.replace('/book-reviews/');
+      } else {
+        // Otherwise, let the SPA handle it
+        location.replace('/book-reviews/' + location.search + location.hash);
+      }
+    </script>
+  </head>
+  <body>
+    Redirecting...
+  </body>
+</html> 
