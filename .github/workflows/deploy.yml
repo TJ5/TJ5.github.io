@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main  # or master, depending on your default branch
+permissions:
+  contents: write  # Required to deploy to GitHub Pages
+  pages: write     # Required to update GitHub Pages
 
 jobs:
   build-and-deploy:
