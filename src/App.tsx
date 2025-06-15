@@ -11,7 +11,6 @@ import Reviews from './components/Reviews';
 import './App.css';
 
 const App: React.FC = () => {
-    const [searchQuery, setSearchQuery] = React.useState('');
     const [activeSearchQuery, setActiveSearchQuery] = React.useState('');
 
     const handleSearch = (query: string) => {

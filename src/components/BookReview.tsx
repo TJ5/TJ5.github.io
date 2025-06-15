@@ -9,7 +9,6 @@ interface BookReviewProps {
     date: string;
     summary: string;
     coverImage: string;
-    genre: string;
     isFeatured?: boolean;
 }
 
@@ -21,7 +20,6 @@ const BookReview: React.FC<BookReviewProps> = ({
     date,
     summary,
     coverImage,
-    genre,
     isFeatured = false
 }) => {
     const navigate = useNavigate();
