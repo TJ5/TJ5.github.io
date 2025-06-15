@@ -1,0 +1,19 @@
+{
+    "reviews": [
+        {
+            "id": "1",
+            "title": "Service Model",
+            "author": "Adrian Tchaikovsky",
+            "publisher": "Tor Books",
+            "publishDate": "2024-04-02",
+            "rating": 7,
+            "date": "2025-06-02",
+            "summary": "To fix the world they must first break it, further. Humanity is a dying breed, utterly reliant on artificial labor and service. When a domesticated robot gets a nasty little idea downloaded into its core programming, they murder their owner. The robot discovers they can also do something else they never did before: They can run away.",
+            "coverImage": "/book-reviews/images/service-model.jpg",
+            "genre": "Science Fiction",
+            "fullReview": "service-model-full.txt",
+            "spoilers": "service-model-spoilers.txt",
+            "finalThoughts": "service-model-final.txt"
+        }
+    ]
+} 
