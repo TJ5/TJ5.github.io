@@ -28,7 +28,7 @@ const App: React.FC = () => {
         );
 
     return (
-        <Router basename="/book-reviews">
+        <Router basename="/">
             <div className="app">
                 <Header />
                 <div className="container">
