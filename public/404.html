@@ -4,12 +4,16 @@
     <meta charset="utf-8">
     <title>Redirecting...</title>
     <script>
-      // If the path is /book-reviews, redirect to /book-reviews/
-      if (location.pathname === '/book-reviews') {
-        location.replace('/book-reviews/');
+      var legacyBookReviewsPath = '/book-reviews';
+      var redirectTarget = '/' + location.search + location.hash;
+
+      if (
+        location.pathname === legacyBookReviewsPath ||
+        location.pathname === legacyBookReviewsPath + '/'
+      ) {
+        location.replace(redirectTarget);
       } else {
-        // Otherwise, let the SPA handle it
-        location.replace('/book-reviews/' + location.search + location.hash);
+        location.replace('/');
       }
     </script>
   </head>

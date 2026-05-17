@@ -2,6 +2,9 @@ import reviewsData from './reviews.json';
 import serviceModelFull from '../reviews/service-model-full.txt?raw';
 import serviceModelSpoilers from '../reviews/service-model-spoilers.txt?raw';
 import serviceModelFinal from '../reviews/service-model-final.txt?raw';
+import motherOfLearningFull from '../reviews/mother-of-learning-full.txt?raw';
+import motherOfLearningSpoilers from '../reviews/mother-of-learning-spoilers.txt?raw';
+import motherOfLearningFinal from '../reviews/mother-of-learning-final.txt?raw';
 
 export interface BookReviewData {
     id: string;
@@ -23,7 +26,10 @@ export interface BookReviewData {
 const reviewContentMap: { [key: string]: string } = {
     'service-model-full.txt': serviceModelFull,
     'service-model-spoilers.txt': serviceModelSpoilers,
-    'service-model-final.txt': serviceModelFinal
+    'service-model-final.txt': serviceModelFinal,
+    'mother-of-learning-full.txt': motherOfLearningFull,
+    'mother-of-learning-spoilers.txt': motherOfLearningSpoilers,
+    'mother-of-learning-final.txt': motherOfLearningFinal
 };
 
 // Process the reviews data and inject the full review content
